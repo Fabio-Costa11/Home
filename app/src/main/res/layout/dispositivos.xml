@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#077e6b">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <TextView
+            android:text="Dispositivos"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/textView5"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:textColor="@android:color/background_light"
+            android:fontFamily="sans-serif"
+            android:background="@android:color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_tv"
+                android:textColor="#077e6b"
+                android:backgroundTint="@android:color/black"
+                android:onClick="btn_tv"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="+"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_add_tv"
+                android:layout_weight="1"
+                android:onClick="btn_add_tv"
+                android:textColor="#077e6b"
+                android:backgroundTint="@android:color/background_light" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="Iluminação"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_iluminacao"
+                android:textColor="#077e6b"
+                android:backgroundTint="@android:color/black"
+                android:onClick="btn_iluminacao"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="+"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_add_iluminacao"
+                android:layout_weight="1"
+                android:onClick="btn_add_iluminacao"
+                android:textColor="#077e6b"
+                android:backgroundTint="@android:color/background_light" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="Ar Condicionado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_arcondicionado"
+                android:textColor="#077e6b"
+                android:backgroundTint="@android:color/black"
+                android:onClick="btn_arcondicionado"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="+"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_add_arcondicionado"
+                android:layout_weight="1"
+                android:onClick="btn_add_arcondicionado"
+                android:textColor="#077e6b"
+                android:backgroundTint="@android:color/background_light" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="Audio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_audio"
+                android:textColor="#077e6b"
+                android:backgroundTint="@android:color/black"
+                android:onClick="btn_audio"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="+"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_add_audio"
+                android:layout_weight="1"
+                android:onClick="btn_add_audio"
+                android:textColor="#077e6b"
+                android:backgroundTint="@android:color/background_light" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="Estores"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_estores"
+                android:textColor="#077e6b"
+                android:backgroundTint="@android:color/black"
+                android:onClick="btn_estores"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="+"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_add_estore"
+                android:layout_weight="1"
+                android:onClick="btn_add_estore"
+                android:textColor="#077e6b"
+                android:backgroundTint="@android:color/background_light" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="Alarme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_alarme"
+                android:textColor="#077e6b"
+                android:backgroundTint="@android:color/black"
+                android:onClick="btn_alarme"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="+"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_add_alarme"
+                android:layout_weight="1"
+                android:onClick="btn_add_alarme"
+                android:textColor="#077e6b"
+                android:backgroundTint="@android:color/background_light" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="Portas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_portas"
+                android:textColor="#077e6b"
+                android:backgroundTint="@android:color/black"
+                android:onClick="btn_portas"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="+"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_add_porta"
+                android:layout_weight="1"
+                android:onClick="btn_add_porta"
+                android:textColor="#077e6b"
+                android:backgroundTint="@android:color/background_light" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="Sensor de Luz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_informacoes"
+                android:onClick="btn_informacoes"
+                android:textColor="#077e6b"
+                android:backgroundTint="@android:color/black"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
